@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9D5B71951DCB90BF00B0A009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71941DCB90BF00B0A009 /* AppDelegate.swift */; };
-		9D5B71971DCB90BF00B0A009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71961DCB90BF00B0A009 /* ViewController.swift */; };
+		9D5B71971DCB90BF00B0A009 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71961DCB90BF00B0A009 /* CameraViewController.swift */; };
 		9D5B719A1DCB90BF00B0A009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B71981DCB90BF00B0A009 /* Main.storyboard */; };
 		9D5B719D1DCB90BF00B0A009 /* AcessandoHardware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B719B1DCB90BF00B0A009 /* AcessandoHardware.xcdatamodeld */; };
 		9D5B719F1DCB90BF00B0A009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B719E1DCB90BF00B0A009 /* Assets.xcassets */; };
 		9D5B71A21DCB90BF00B0A009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B71A01DCB90BF00B0A009 /* LaunchScreen.storyboard */; };
 		9D5B71AD1DCB90BF00B0A009 /* AcessandoHardwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71AC1DCB90BF00B0A009 /* AcessandoHardwareTests.swift */; };
 		9D5B71B81DCB90BF00B0A009 /* AcessandoHardwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71B71DCB90BF00B0A009 /* AcessandoHardwareUITests.swift */; };
+		9D5B71C71DCBB21100B0A009 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5B71C61DCBB21100B0A009 /* MapKit.framework */; };
+		9D5B71C91DCBB2A800B0A009 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71C81DCBB2A800B0A009 /* MainViewController.swift */; };
+		9D5B71CB1DCBB36A00B0A009 /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B71CA1DCBB36A00B0A009 /* GPSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		9D5B71911DCB90BF00B0A009 /* AcessandoHardware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcessandoHardware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5B71941DCB90BF00B0A009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D5B71961DCB90BF00B0A009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D5B71961DCB90BF00B0A009 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		9D5B71991DCB90BF00B0A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D5B719C1DCB90BF00B0A009 /* AcessandoHardware.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AcessandoHardware.xcdatamodel; sourceTree = "<group>"; };
 		9D5B719E1DCB90BF00B0A009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		9D5B71B31DCB90BF00B0A009 /* AcessandoHardwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcessandoHardwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5B71B71DCB90BF00B0A009 /* AcessandoHardwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessandoHardwareUITests.swift; sourceTree = "<group>"; };
 		9D5B71B91DCB90BF00B0A009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5B71C61DCBB21100B0A009 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9D5B71C81DCBB2A800B0A009 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9D5B71CA1DCBB36A00B0A009 /* GPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5B71C71DCBB21100B0A009 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 				9D5B71AB1DCB90BF00B0A009 /* AcessandoHardwareTests */,
 				9D5B71B61DCB90BF00B0A009 /* AcessandoHardwareUITests */,
 				9D5B71921DCB90BF00B0A009 /* Products */,
+				9D5B71C51DCBB21100B0A009 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				9D5B71941DCB90BF00B0A009 /* AppDelegate.swift */,
-				9D5B71961DCB90BF00B0A009 /* ViewController.swift */,
+				9D5B71961DCB90BF00B0A009 /* CameraViewController.swift */,
+				9D5B71C81DCBB2A800B0A009 /* MainViewController.swift */,
+				9D5B71CA1DCBB36A00B0A009 /* GPSViewController.swift */,
 				9D5B71981DCB90BF00B0A009 /* Main.storyboard */,
 				9D5B719E1DCB90BF00B0A009 /* Assets.xcassets */,
 				9D5B71A01DCB90BF00B0A009 /* LaunchScreen.storyboard */,
@@ -126,6 +136,14 @@
 				9D5B71B91DCB90BF00B0A009 /* Info.plist */,
 			);
 			path = AcessandoHardwareUITests;
+			sourceTree = "<group>";
+		};
+		9D5B71C51DCBB21100B0A009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B71C61DCBB21100B0A009 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +214,13 @@
 				TargetAttributes = {
 					9D5B71901DCB90BF00B0A009 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M68K7TT673;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					9D5B71A71DCB90BF00B0A009 = {
 						CreatedOnToolsVersion = 8.0;
@@ -263,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5B719D1DCB90BF00B0A009 /* AcessandoHardware.xcdatamodeld in Sources */,
-				9D5B71971DCB90BF00B0A009 /* ViewController.swift in Sources */,
+				9D5B71CB1DCBB36A00B0A009 /* GPSViewController.swift in Sources */,
+				9D5B71971DCB90BF00B0A009 /* CameraViewController.swift in Sources */,
 				9D5B71951DCB90BF00B0A009 /* AppDelegate.swift in Sources */,
+				9D5B71C91DCBB2A800B0A009 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M68K7TT673;
 				INFOPLIST_FILE = AcessandoHardware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unochapeco.edu.br.AcessandoHardware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +457,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M68K7TT673;
 				INFOPLIST_FILE = AcessandoHardware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unochapeco.edu.br.AcessandoHardware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
